@@ -1,2 +1,2 @@
 #skyscanner Ru
-###hotels docks and examples in hotels.md
+hotels docs and examples in hotels.md
