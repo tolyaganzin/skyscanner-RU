@@ -1,6 +1,6 @@
 #Request base .../{market or country}/{currency}/{locale}...
 
-Практически во всех запросах **skyscanner** использует данную конструкцию. Она нужна для того, что бы полученый ответ приходил в указанной валюте и языке.
+Практически во всех запросах **skyscanner** использует данную конструкцию. Она нужна для того, что бы полученый ответ приходил в указанной валюте и языке. Страны нужны для получение более точной цены на билет самолета либо аренду авто или номера отеля.
 
 
 ##Примеры
@@ -70,6 +70,24 @@ http://partners.api.skyscanner.net/apiservices/
     reference/v1.0/currencies?
     apikey=prtl6749387986743898559646983194
 ```
+Результат
+```json
+{
+  "Currencies": [
+      {
+          "Code": "USD",
+          "Symbol": "$",
+          "ThousandsSeparator": ",",
+          "DecimalSeparator": ".",
+          "SymbolOnLeft": true,
+          "SpaceBetweenAmountAndSymbol": false,
+          "RoundingCoefficient": 0,
+          "DecimalDigits": 2
+      },
+  ...
+  ]
+}
+```
 
 
 ###Получение {market or country}
@@ -86,4 +104,24 @@ http://partners.api.skyscanner.net/apiservices/
     reference/v1.0/countries/
     en-US?
     apikey=prtl6749387986743898559646983194
+```
+Результат
+```json
+{
+  "Countries": [
+    {
+      "Code": "AD",
+      "Name": "Andorra"
+    },
+    {
+      "Code": "AE",
+      "Name": "United Arab Emirates"
+    },
+    {
+      "Code": "AF",
+      "Name": "Afghanistan"
+    },
+  ...
+  ]
+}
 ```
