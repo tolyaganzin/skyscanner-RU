@@ -8,23 +8,26 @@
 
 
 ##Примеры
-Начну я с конца данной части запроса так как для получения страны уже нужна локаль
+Начну я с конца данной части запроса так как для получения страны уже нужна локаль.
+
 
 ###Получение {locale} запрос типа GET
+
 Синтаксис
 ```
 http://partners.api.skyscanner.net/apiservices/
     reference/v1.0/locales?
     apiKey={apiKey}
 ```
+
 Пример
 ```
 http://partners.api.skyscanner.net/apiservices/
     reference/v1.0/locales?
     apikey=prtl6749387986743898559646983194
 ```
-Результат - **JSON** ответ с масивом объектов локалей. В адресной строке мы будем постоянно использовать поле **"Code"**.
 
+Результат - **JSON** ответ с масивом объектов локалей. В адресной строке мы будем постоянно использовать поле **"Code"**.
 ```json
 {
   "Locales": [
@@ -61,22 +64,25 @@ http://partners.api.skyscanner.net/apiservices/
 }
 ```
 
-Поле с локалью будет выглядеть так: **.../ru-RU...**
+Поле с локалью будет выглядеть так: **.../ru-RU...**.
 
 
 ###Получение {currency} запрос типа GET
+
 Синтаксис
 ```
 http://partners.api.skyscanner.net/apiservices/
     reference/v1.0/currencies?
     apiKey={apiKey}
 ```
+
 Пример
 ```
 http://partners.api.skyscanner.net/apiservices/
     reference/v1.0/currencies?
     apikey=prtl6749387986743898559646983194
 ```
+
 Результат
 ```json
 {
@@ -98,6 +104,7 @@ http://partners.api.skyscanner.net/apiservices/
 
 
 ###Получение {market or country} запрос типа GET
+
 Синтаксис
 ```
 http://partners.api.skyscanner.net/apiservices/
@@ -105,6 +112,7 @@ http://partners.api.skyscanner.net/apiservices/
     {locale}?
     apiKey={apiKey}
 ```
+
 Пример
 ```
 http://partners.api.skyscanner.net/apiservices/
@@ -112,6 +120,7 @@ http://partners.api.skyscanner.net/apiservices/
     en-US?
     apikey=prtl6749387986743898559646983194
 ```
+
 Результат
 ```json
 {
