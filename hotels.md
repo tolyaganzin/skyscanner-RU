@@ -26,16 +26,24 @@ http://partners.api.skyscanner.net/apiservices/hotels/autosuggest/v2/
 Пример - 1
 Данный запрос получил все места находящиеся в городе: Запорожье
 ```
-http://partners.api.skyscanner.net/apiservices/hotels/autosuggest/v2/UA/USD/ru-RU/zaporizhya?apikey=prtl6749387986743898559646983194
+http://partners.api.skyscanner.net/apiservices/hotels/autosuggest/v2/
+    UA/
+    USD/
+    ru-RU/
+    zaporizhya?
+    apikey=prtl6749387986743898559646983194
 ```
---------------------------------------------------------------------------------
 
 Пример - 2
 ```
-http://partners.api.skyscanner.net/apiservices/hotels/autosuggest/v2/UA/USD/ru-RU/ukraine?apikey=prtl6749387986743898559646983194
+http://partners.api.skyscanner.net/apiservices/hotels/autosuggest/v2/
+    UA/
+    USD/
+    ru-RU/
+    ukraine?apikey=prtl6749387986743898559646983194
 ```
 
-Выведет масивы: мест и результатов. В масиве результатов указаныны: город, апартаменты, аэропорт, стадион, улицы, отели. (указываеться в поле geo_type)
+Выведет масивы: мест и результатов. В масиве результатов указаныны: город, апартаменты, аэропорт, стадион, улицы, отели (указываеться в поле geo_type).
 В местах ВАЖНО СМОТРЕТЬ на наличиие поля country_name, если это касаеться конкретной страны, а так же поле city_name, если нужен конкретный город. При поиске в масиве результатов поле parent_place_id должно соответствовать полю place_id в масиве мест.
 
 
@@ -60,7 +68,16 @@ http://partners.api.skyscanner.net/apiservices/hotels/liveprices/v2/
 
 Пример
 ```
-http://partners.api.skyscanner.net/apiservices/hotels/liveprices/v2/UA/USD/ru-RU/114449549/2017-05-04/2017-05-10/2/1?apiKey=prtl6749387986743898559646983194
+http://partners.api.skyscanner.net/apiservices/hotels/liveprices/v2/
+    UA/
+    USD/
+    ru-RU/
+    114449549/
+    2017-05-04/
+    2017-05-10/
+    2/
+    1?
+    apiKey=prtl6749387986743898559646983194
 ```
 
 ##Получение подробной информации об отеле
@@ -78,12 +95,12 @@ http://partners.api.skyscanner.net/apiservices/hotels/livedetails/v2/details/
 {session key} и {encryptedApiKey} мы получаем из запроса выше из объекта "urls" поля "hotel_details"
 {hotelIds} мы берем из объекта "hotels" поля "hotel_id" (hotel_id соответствует объекта "hotels_prices" полю id) - передать можно лишь 1 id
 ```
---------------------------------------------------------------------------------
+
 Схема сборки запроса
 ```
 "http://partners.api.skyscanner.net" + urls.hotel_details + hotels_prices.id
 ```
---------------------------------------------------------------------------------
+
 Пример
 ```
 http://partners.api.skyscanner.net/apiservices/hotels/livedetails/v2/details/
