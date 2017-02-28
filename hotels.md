@@ -55,7 +55,8 @@ http://partners.api.skyscanner.net/apiservices/hotels/livedetails/v2/details/{se
 http://partners.api.skyscanner.net
 ```
 +
-```/apiservices/hotels/livedetails/v2/details/H4sIAAAAAAAEAKtWyleyilYKdVTSUSoq1Q0KBdKhwS5A0tDQxMTE0tTEEsg2MjA01zUw1TUwCTEwsAIjJFFDAyRRIx1DoF5jHSMgw9RQSSevNCcnVkcpT8lK19LcxLgWAGUE2ARxAAAA0?apikey=_wVpmI14SOFx5TVFMGIRHygS6xZQksyyo6gF0HIdhepkbgUoByWEBEMEqpXrMC4lKVbqL6eB7oqsknxsI3bc67g%3D%3D
+```
+/apiservices/hotels/livedetails/v2/details/H4sIAAAAAAAEAKtWyleyilYKdVTSUSoq1Q0KBdKhwS5A0tDQxMTE0tTEEsg2MjA01zUw1TUwCTEwsAIjJFFDAyRRIx1DoF5jHSMgw9RQSSevNCcnVkcpT8lK19LcxLgWAGUE2ARxAAAA0?apikey=_wVpmI14SOFx5TVFMGIRHygS6xZQksyyo6gF0HIdhepkbgUoByWEBEMEqpXrMC4lKVbqL6eB7oqsknxsI3bc67g%3D%3D
 ```
 +
 ```
