@@ -10,7 +10,7 @@
 ##Примеры
 Начну я с конца данной части запроса так как для получения страны уже нужна локаль
 
-###Получение {locale}
+###Получение {locale} запрос типа GET
 Синтаксис
 ```
 http://partners.api.skyscanner.net/apiservices/
@@ -64,7 +64,7 @@ http://partners.api.skyscanner.net/apiservices/
 Поле с локалью будет выглядеть так: **.../ru-RU...**
 
 
-###Получение {currency}
+###Получение {currency} запрос типа GET
 Синтаксис
 ```
 http://partners.api.skyscanner.net/apiservices/
@@ -97,7 +97,7 @@ http://partners.api.skyscanner.net/apiservices/
 ```
 
 
-###Получение {market or country}
+###Получение {market or country} запрос типа GET
 Синтаксис
 ```
 http://partners.api.skyscanner.net/apiservices/
