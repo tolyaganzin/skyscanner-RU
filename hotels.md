@@ -1,7 +1,7 @@
 
 #Отели
 
-[Глвня](https://github.com/tolyaganzin/skyscanner-RU) [База](https://github.com/tolyaganzin/skyscanner-RU/blob/master/base.md)
+[Глвня](https://github.com/tolyaganzin/skyscanner-RU) [<-База](https://github.com/tolyaganzin/skyscanner-RU/blob/master/base.md) [Места->](https://github.com/tolyaganzin/skyscanner-RU/blob/master/places.md)
 
 * Places [офф документация](https://skyscanner.github.io/slate/#places)
 * Hotels Price List and Hotels Details service [офф документация](https://support.business.skyscanner.net/hc/en-us/articles/212098705-Hotels-Price-List-and-Hotels-Details-service#createdetails)
@@ -13,7 +13,7 @@
 * Подробная информация об отеле
 
 
-##Получает все места по их совпадению с запросом
+##Получает все места по их совпадению с запросом (запрос типа GET)
 
 
 Синтаксис
@@ -52,7 +52,7 @@ http://partners.api.skyscanner.net/apiservices/hotels/autosuggest/v2/
 В местах ВАЖНО СМОТРЕТЬ на наличиие поля country_name, если это касаеться конкретной страны, а так же поле city_name, если нужен конкретный город. При поиске в масиве результатов поле parent_place_id должно соответствовать полю place_id в масиве мест.
 
 
-##Получение отелей и цен по идентификатору individual_id из результата запроса выше
+##Получение отелей и цен по идентификатору individual_id из результата запроса выше (запрос типа GET)
 ```
 entityid = individual_id
 ```
@@ -85,7 +85,7 @@ http://partners.api.skyscanner.net/apiservices/hotels/liveprices/v2/
     apiKey=prtl6749387986743898559646983194
 ```
 
-##Получение подробной информации об отеле
+##Получение подробной информации об отеле (запрос типа GET)
 
 Синтаксис
 ```

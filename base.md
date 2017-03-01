@@ -1,6 +1,6 @@
 #Request base .../{market or country}/{currency}/{locale}...
 
-[Глвня](https://github.com/tolyaganzin/skyscanner-RU) [Отели](https://github.com/tolyaganzin/skyscanner-RU/blob/master/hotels.md)
+[Глвня](https://github.com/tolyaganzin/skyscanner-RU) [Отели->](https://github.com/tolyaganzin/skyscanner-RU/blob/master/hotels.md)
 
 ###Localisation [офф документация](https://skyscanner.github.io/slate/#localisation)
 
@@ -15,7 +15,7 @@
 Начну я с конца данной части запроса так как для получения страны уже нужна локаль.
 
 
-###Получение {locale} запрос типа GET
+###Получение {locale} (запрос типа GET)
 
 Синтаксис
 ```
@@ -71,7 +71,7 @@ http://partners.api.skyscanner.net/apiservices/
 Поле с локалью будет выглядеть так: **.../ru-RU...**.
 
 
-###Получение {currency} запрос типа GET
+###Получение {currency} (запрос типа GET)
 
 Синтаксис
 ```
@@ -107,7 +107,7 @@ http://partners.api.skyscanner.net/apiservices/
 ```
 
 
-###Получение {market or country} запрос типа GET
+###Получение {market or country} (запрос типа GET)
 
 Синтаксис
 ```
