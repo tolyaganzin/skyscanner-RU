@@ -1,7 +1,10 @@
 #Request base .../{market or country}/{currency}/{locale}...
-###Localisation [офф документация](https://skyscanner.github.io/slate/#localisation)
 
 [Глвня](https://github.com/tolyaganzin/skyscanner-RU) [Отели](https://github.com/tolyaganzin/skyscanner-RU/blob/master/hotels.md)
+
+###Localisation [офф документация](https://skyscanner.github.io/slate/#localisation)
+
+-------------------------------------------------------------------------------------------------------------------
 
 * Практически во всех запросах **skyscanner** использует данную конструкцию.
 * Она нужна для того, что бы полученый ответ приходил в указанной валюте и языке.
