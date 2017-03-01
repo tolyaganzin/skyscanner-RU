@@ -1,6 +1,8 @@
 
 #Отели
-###Hotels Price List and Hotels Details service [офф документация](https://support.business.skyscanner.net/hc/en-us/articles/212098705-Hotels-Price-List-and-Hotels-Details-service#createdetails)
+
+* Places [офф документация](https://skyscanner.github.io/slate/#places)
+* Hotels Price List and Hotels Details service [офф документация](https://support.business.skyscanner.net/hc/en-us/articles/212098705-Hotels-Price-List-and-Hotels-Details-service#createdetails)
 
 [Глвня](https://github.com/tolyaganzin/skyscanner-RU) [База](https://github.com/tolyaganzin/skyscanner-RU/blob/master/base.md)
 
@@ -116,4 +118,4 @@ http://partners.api.skyscanner.net/apiservices/hotels/livedetails/v2/details/
 ```
 hotelIds=95823343,46999735,56665948
 ```
-Но при ответе мы получим пустой масив **hotels_prices**, а остальные данные дополняться в соответствии с запросом.
+Но при ответе мы получим пустой масив **hotels_prices**, а остальные данные дополняться в соответствии с запросом. Это не страшно так как цены отелей были в запросе выше.
