@@ -1,5 +1,6 @@
 
 #Отели
+###Hotels Price List and Hotels Details service [офф документация](https://support.business.skyscanner.net/hc/en-us/articles/212098705-Hotels-Price-List-and-Hotels-Details-service#createdetails)
 
 [Глвня](https://github.com/tolyaganzin/skyscanner-RU) [База](https://github.com/tolyaganzin/skyscanner-RU/blob/master/base.md)
 
@@ -108,3 +109,11 @@ http://partners.api.skyscanner.net/apiservices/hotels/livedetails/v2/details/
     apikey=_wVpmI14SOFx5TVFMGIRHygS6xZQksyyo6gF0HIdhepkbgUoByWEBEMEqpXrMC4lKVbqL6eB7oqsknxsI3bc67g%3D%3D
     &hotelIds=95823343
 ```
+
+###Уточнение
+* {session key} и {encryptedApiKey} - действуют достаточно не долго (примерно 12 часов)
+* Если в поле **hotelIds** нужно передать более одного параметра - их нужно разделить запятой.
+```
+hotelIds=95823343,46999735,56665948
+```
+Но при ответе мы получим пустой масив **hotels_prices**, а остальные данные дополняться в соответствии с запросом.

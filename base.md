@@ -1,4 +1,5 @@
 #Request base .../{market or country}/{currency}/{locale}...
+###Localisation [офф документация](https://skyscanner.github.io/slate/#localisation)
 
 [Глвня](https://github.com/tolyaganzin/skyscanner-RU) [Отели](https://github.com/tolyaganzin/skyscanner-RU/blob/master/hotels.md)
 

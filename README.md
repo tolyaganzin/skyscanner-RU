@@ -13,5 +13,5 @@ apikey=prtl6749387986743898559646983194
 
 ###Содержание
 
-* Первые запросы к **API skyscanner** (масивы базовых настроек) [прейти](https://github.com/tolyaganzin/skyscanner-RU/blob/master/base.md)
+* Первые запросы к **API skyscanner** (масивы базовых настроек, Localisation) [прейти](https://github.com/tolyaganzin/skyscanner-RU/blob/master/base.md)
 * Hotels docs and examples [прейти](https://github.com/tolyaganzin/skyscanner-RU/blob/master/hotels.md)
