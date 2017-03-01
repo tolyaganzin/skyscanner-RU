@@ -5,7 +5,9 @@
 
 * Places [офф документация](https://skyscanner.github.io/slate/#places)
 * Hotels Price List and Hotels Details service [офф документация](https://support.business.skyscanner.net/hc/en-us/articles/212098705-Hotels-Price-List-and-Hotels-Details-service#createdetails)
+
 ------------------------------------------------------------------------------------------
+
 * Получение всех мест из запроса
 * Получение уникального идинтификатора места (отеля)
 * Подробная информация об отеле
