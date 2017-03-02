@@ -13,6 +13,7 @@ apikey=prtl6749387986743898559646983194
 
 ###Содержание
 
-* Первые запросы к **API skyscanner** (масивы базовых настроек, Localisation) [прейти](https://github.com/tolyaganzin/skyscanner-RU/blob/master/base.md)
-* Отели [прейти](https://github.com/tolyaganzin/skyscanner-RU/blob/master/hotels.md)
-* Места [прейти](https://github.com/tolyaganzin/skyscanner-RU/blob/master/places.md)
+* Первые запросы к **API skyscanner** (масивы базовых настроек, Localisation) [перейти](https://github.com/tolyaganzin/skyscanner-RU/blob/master/base.md)
+* Отели [перейти](https://github.com/tolyaganzin/skyscanner-RU/blob/master/hotels.md)
+* Места [перейти](https://github.com/tolyaganzin/skyscanner-RU/blob/master/places.md)
+* аренда авто [перейти](https://github.com/tolyaganzin/skyscanner-RU/blob/master/carHire.md)
