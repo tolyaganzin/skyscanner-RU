@@ -5,6 +5,8 @@
 * Обзор направлений [офф документация](https://skyscanner.github.io/slate/#browse-quotes)
 * Обзор дат [офф документация](https://skyscanner.github.io/slate/#browse-dates)
 
+**Остальные 2 запроса выдают какое-то дерьмо**
+
 ##Обзор направлений (запрос типа GET)
 
 Синтаксис
