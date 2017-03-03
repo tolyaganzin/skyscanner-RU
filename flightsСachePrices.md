@@ -1,6 +1,6 @@
 #Инфрмация о возможных полетах
 
-[Глвня](https://github.com/tolyaganzin/skyscanner-RU) [<-Аренда авто](https://github.com/tolyaganzin/skyscanner-RU/blob/master/carHire.md) [Цены на перелеты->](https://github.com/tolyaganzin/skyscanner-RU/blob/master/flightsLivePrices.md)
+[Глвня](https://github.com/tolyaganzin/skyscanner-RU) [<-Аренда авто](https://github.com/tolyaganzin/skyscanner-RU/blob/master/carHire.md) | [Цены на перелеты->](https://github.com/tolyaganzin/skyscanner-RU/blob/master/flightsLivePrices.md)
 
 * Обзор направлений [офф документация](https://skyscanner.github.io/slate/#browse-quotes)
 * Обзор дат [офф документация](https://skyscanner.github.io/slate/#browse-dates)
