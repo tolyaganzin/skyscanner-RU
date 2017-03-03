@@ -46,7 +46,7 @@ Date →Fri, 03 Mar 2017 10:07:11 GMT
 Location →http://partners.api.skyscanner.net/apiservices/pricing/uk1/v1.0/d9117ab4018c4626afb80083d64ee742_rrsqbjcb_06a13f0a788e803fcc56e78802891a26
 ```
 * Данный запрос на авторизацию может глючить и по этому отправлять его желательно 3-5 раз
-* Нам нужна ссылка **Location** для следующего запроса
+* Нам нужна ссылка из **Location** для следующего запроса
 
 
 
