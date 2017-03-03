@@ -17,4 +17,4 @@ apikey=prtl6749387986743898559646983194
 * Отели [перейти](https://github.com/tolyaganzin/skyscanner-RU/blob/master/hotels.md)
 * Места [перейти](https://github.com/tolyaganzin/skyscanner-RU/blob/master/places.md)
 * Аренда авто [перейти](https://github.com/tolyaganzin/skyscanner-RU/blob/master/carHire.md)
-* Цены на полеты [перейти](https://github.com/tolyaganzin/skyscanner-RU/blob/master/flightsСachePrices.md)
+* Инфрмация о возможных полетах [перейти](https://github.com/tolyaganzin/skyscanner-RU/blob/master/flightsСachePrices.md)

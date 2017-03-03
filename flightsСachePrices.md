@@ -1,4 +1,4 @@
-#Цены на полеты
+#Инфрмация о возможных полетах
 
 [Глвня](https://github.com/tolyaganzin/skyscanner-RU) [<-Аренда авто](https://github.com/tolyaganzin/skyscanner-RU/blob/master/carHire.md)
 
