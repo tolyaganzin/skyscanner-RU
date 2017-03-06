@@ -164,13 +164,17 @@ http://partners.api.skyscanner.net/apiservices/
 
 Синтаксис
 ```
-http://partners.api.skyscanner.net/hotels/autosuggest/v2/{country}/{currency}/{locale}/{query}?
+http://partners.api.skyscanner.net/hotels/autosuggest/v2/
+    {country}/{currency}/{locale}/
+    {query}?
     apiKey={apiKey}
 ```
 
 Пример
 ```
-http://partners.api.skyscanner.net/apiservices/hotels/autosuggest/v2/UA/USD/ru-RU/pari?
+http://partners.api.skyscanner.net/apiservices/hotels/autosuggest/v2/
+    UA/USD/ru-RU/
+    zaporizhya?
     apikey=prtl6749387986743898559646983194
 ```
 
@@ -180,33 +184,76 @@ http://partners.api.skyscanner.net/apiservices/hotels/autosuggest/v2/UA/USD/ru-R
   "places": [
     {
       "place_id": 1,
-      "city_name": "Paris",
-      "admin_level1": "Île-de-France",
-      "country_name": "France"
+      "admin_level1": "Запорожская область",
+      "country_name": "Украина"
     },
     {
       "place_id": 2,
-      "admin_level1": "Île-de-France",
-      "country_name": "France"
+      "city_name": "Zaporizhia",
+      "admin_level1": "Запорожская область",
+      "country_name": "Украина"
     },
-  ...
+    {
+      "place_id": 3,
+      "country_name": "Украина"
+    }
   ],
   "results": [
     {
-      "display_name": "Paris",
+      "display_name": "Zaporizhia",
       "parent_place_id": 1,
-      "individual_id": "27539733",
+      "individual_id": "44896770",
       "geo_type": "City",
-      "localised_geo_type": "City",
+      "localised_geo_type": "Город",
       "is_bookable": false
     },
     {
-      "display_name": "Paris 08 Élysée",
-      "parent_place_id": 1,
-      "individual_id": "27562771",
-      "geo_type": "District",
-      "localised_geo_type": "District",
+      "display_name": "Zaporizhia (OZH)",
+      "parent_place_id": 2,
+      "individual_id": "114117160",
+      "geo_type": "Airport",
+      "localised_geo_type": "Аэропорт",
       "is_bookable": false
+    },
+    {
+      "display_name": "Apartments",
+      "parent_place_id": 2,
+      "individual_id": "47179991",
+      "geo_type": "Apartment",
+      "localised_geo_type": "Апартаменты",
+      "is_bookable": true
+    },
+    {
+      "display_name": "Lenina Avenue",
+      "parent_place_id": 2,
+      "individual_id": "102962720",
+      "geo_type": "Transitway",
+      "localised_geo_type": "Улица",
+      "is_bookable": false
+    },
+    {
+      "display_name": "Zaporizhia Oblast",
+      "parent_place_id": 3,
+      "individual_id": "44291765",
+      "geo_type": "FirstLevelNationAdministrativeDivision",
+      "localised_geo_type": "Регион",
+      "is_bookable": false
+    },
+    {
+      "display_name": "Славутич-Арена",
+      "parent_place_id": 2,
+      "individual_id": "114133024",
+      "geo_type": "Stadium",
+      "localised_geo_type": "Стадион",
+      "is_bookable": false
+    },
+    {
+      "display_name": "Reikartz Zaporizhia",
+      "parent_place_id": 2,
+      "individual_id": "56665948",
+      "geo_type": "Hotel",
+      "localised_geo_type": "Отель",
+      "is_bookable": true
     },
     ...
   ]
