@@ -67,8 +67,9 @@ http://partners.api.skyscanner.net/apiservices/
   ]
 }
 ```
+* **Name** - название страны на ее локале
+* **Code** - это и есть локаль работает как так "uk-UA" так и вот так "UA", но лучше всего первый вариант **.../uk-UA...**
 
-Поле с локалью будет выглядеть так: **.../ru-RU...**.
 
 
 ###Получение {currency} (запрос типа GET)
@@ -105,6 +106,17 @@ http://partners.api.skyscanner.net/apiservices/
   ]
 }
 ```
+###Статические поля ответа
+* ThousandsSeparator - разделитель каждой тысячи
+* DecimalSeparator - целочисленный разделитель
+* RoundingCoefficient - коэффициент округления
+
+###Динамические поля
+* **Code** - код валюты указываеться в запросе **.../USD...**
+* Symbol - символ валюты
+* SymbolOnLeft - расположение символа валюты
+* SpaceBetweenAmountAndSymbol - наличие пробела между символом валюты и числом
+* DecimalDigits - количество допустимых символов после **DecimalSeparator**
 
 
 ###Получение {market or country} (запрос типа GET)
@@ -145,3 +157,5 @@ http://partners.api.skyscanner.net/apiservices/
   ]
 }
 ```
+* **Code** - код страны указываеться в запросе **.../AF...**
+* Name - название страны на языке с указанной локалью в нашем запросе
