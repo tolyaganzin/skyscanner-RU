@@ -1,6 +1,6 @@
 #Места
 
-[Глвня](https://github.com/tolyaganzin/skyscanner-RU) [<-База](https://github.com/tolyaganzin/skyscanner-RU/blob/master/base.md) | [Отели->](https://github.com/tolyaganzin/skyscanner-RU/blob/master/hotels.md.md)
+[Глвня](https://github.com/tolyaganzin/skyscanner-RU) [<-База](https://github.com/tolyaganzin/skyscanner-RU/blob/master/base.md) | [Отели->](https://github.com/tolyaganzin/skyscanner-RU/blob/master/hotels/hotels.md)
 
 * Places [офф документация](https://skyscanner.github.io/slate/#places)
 * Примичание **{country}/{currency}/{locale}** [смотри здесь](https://github.com/tolyaganzin/skyscanner-RU/blob/master/base.md)

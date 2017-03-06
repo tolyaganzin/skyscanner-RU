@@ -1,8 +1,7 @@
-#Ареда авто
+#Аренда авто [Офф документация](https://skyscanner.github.io/slate/#car-hire-live-prices)
 
 [Глвня](https://github.com/tolyaganzin/skyscanner-RU) [<-Отели](https://github.com/tolyaganzin/skyscanner-RU/blob/master/hotels/hotels.md) | [Перелеты->](https://github.com/tolyaganzin/skyscanner-RU/blob/master/flights/flights.md)
 
-###[Офф документация](https://skyscanner.github.io/slate/#car-hire-live-prices)
 
 **Есть ряд замечаний к этому запросу**
 
