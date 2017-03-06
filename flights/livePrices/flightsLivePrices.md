@@ -1,6 +1,6 @@
 #Цены на перелеты
 
-[Глвня](https://github.com/tolyaganzin/skyscanner-RU) [<-Инфрмация о возможных полетах](https://github.com/tolyaganzin/skyscanner-RU/blob/master/flightsСachePrices.md)
+[Глвня](https://github.com/tolyaganzin/skyscanner-RU) / [Перелеты](https://github.com/tolyaganzin/skyscanner-RU/blob/master/flights/flights.md)
 
 * Places [офф документация](https://skyscanner.github.io/slate/#places)
 * Flights Live Prices [офф документация](https://skyscanner.github.io/slate/#flights-live-prices)
