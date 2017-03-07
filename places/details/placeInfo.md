@@ -1,11 +1,10 @@
-#Cписок мест по строке запроса (ответ)
+#Информация о месте
 
 ###Places
 
 * PlaceId - уникальный ключь места который был описан в запросе рание
 * PlaceName - название места
-* CountryId - уникальный ключь страны который был описан в запросе рание
-* RegionId - уникальный ключь региона который был описан в запросе рание (он приходит постоянно пустой)
+* CountryId - уникальный страны места который был описан в запросе рание
 * CityId - уникальный ключь города который был описан в запросе рание
 * CountryName - название страны
 
@@ -15,14 +14,12 @@
 {
   "Places": [
     {
-      "PlaceId": "PARI-sky",
-      "PlaceName": "Paris",
-      "CountryId": "FR-sky",
-      "RegionId": "",
-      "CityId": "PARI-sky",
-      "CountryName": "France"
-    },
-    ...
+      "PlaceId": "OZH-sky",
+      "PlaceName": "Zaporizhia",
+      "CountryId": "UA-sky",
+      "CityId": "ZAPO-sky",
+      "CountryName": "Ukraine"
+    }
   ]
 }
 ```

@@ -124,7 +124,7 @@ http://partners.api.skyscanner.net/apiservices/
   ]
 }
 ```
-[подробнее](https://github.com/tolyaganzin/skyscanner-RU/blob/master/places/details/placesList.md)
+###[Подробнее](https://github.com/tolyaganzin/skyscanner-RU/blob/master/places/details/placesList.md)
 
 
 ##Информацию про: страну, город или аеропорт (запрос типа GET)
@@ -141,7 +141,7 @@ http://partners.api.skyscanner.net/apiservices/
 ```
 http://partners.api.skyscanner.net/apiservices/
     autosuggest/v1.0/UK/GBP/en-GB?
-    id=pari&
+    id=OZH&
     apiKey=prtl6749387986743898559646983194
 ```
 
@@ -150,15 +150,16 @@ http://partners.api.skyscanner.net/apiservices/
 {
   "Places": [
     {
-      "PlaceId": "PARI-sky",
-      "PlaceName": "Paris",
-      "CountryId": "FR-sky",
-      "CityId": "PARI-sky",
-      "CountryName": "France"
+      "PlaceId": "OZH-sky",
+      "PlaceName": "Zaporizhia",
+      "CountryId": "UA-sky",
+      "CityId": "ZAPO-sky",
+      "CountryName": "Ukraine"
     }
   ]
 }
 ```
+###[Подробнее](https://github.com/tolyaganzin/skyscanner-RU/blob/master/places/details/placeInfo.md)
 
 
 ##Аренда авто и номеров отелей (запрос типа GET)
