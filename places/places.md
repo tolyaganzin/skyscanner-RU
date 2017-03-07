@@ -124,6 +124,7 @@ http://partners.api.skyscanner.net/apiservices/
   ]
 }
 ```
+[подробнее](https://github.com/tolyaganzin/skyscanner-RU/blob/master/places/details/placesList.md)
 
 
 ##Информацию про: страну, город или аеропорт (запрос типа GET)
