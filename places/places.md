@@ -262,3 +262,4 @@ http://partners.api.skyscanner.net/apiservices/hotels/autosuggest/v2/
   ]
 }
 ```
+###[Подробнее](https://github.com/tolyaganzin/skyscanner-RU/blob/master/places/details/hotelsAndCarHire.md)
