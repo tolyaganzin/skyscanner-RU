@@ -78,6 +78,8 @@ http://partners.api.skyscanner.net/apiservices/browsequotes/v1.0/
   ]
 }
 ```
+* Places - масив рейсов (информация вилетов из указаных городов)
+* Carriers - поставщики услуг
 
 
 ##Обзор дат (запрос типа GET)
