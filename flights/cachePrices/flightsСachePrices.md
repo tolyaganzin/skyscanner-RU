@@ -2,8 +2,10 @@
 
 [Глвня](https://github.com/tolyaganzin/skyscanner-RU) / [Перелеты](https://github.com/tolyaganzin/skyscanner-RU/blob/master/flights/flights.md)
 
-* Обзор направлений [офф документация](https://skyscanner.github.io/slate/#browse-quotes)
-* Обзор дат [офф документация](https://skyscanner.github.io/slate/#browse-dates)
+###[Офф документация](https://skyscanner.github.io/slate/#flights-cache-prices)
+
+* Обзор направлений [перейти](#Обзор-направлений-запрос-типа-get)
+* Обзор дат [перейти](#Обзор-дат-запрос-типа-get)
 
 **Остальные 2 запроса выдают какое-то дерьмо**
 
